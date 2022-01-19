@@ -1,0 +1,62 @@
+{
+    "root": "packages/react-hooks-elib",
+    "sourceRoot": "packages/react-hooks-elib/src",
+    "projectType": "library",
+    "tags": [],
+    "targets": {
+        "build": {
+            "executor": "@nrwl/web:rollup",
+            "outputs": [
+                "{options.outputPath}"
+            ],
+            "options": {
+                "outputPath": "dist/packages/react-hooks-elib",
+                "tsConfig": "packages/react-hooks-elib/tsconfig.lib.json",
+                "project": "packages/react-hooks-elib/package.json",
+                "entryFile": "packages/react-hooks-elib/src/index.ts",
+                "external": [
+                    "react/jsx-runtime"
+                ],
+                "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+                "compiler": "babel",
+                "assets": [
+                    {
+                        "glob": "packages/react-hooks-elib/README.md",
+                        "input": ".",
+                        "output": "."
+                    }
+                ]
+            }
+        },
+        "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "outputs": [
+                "{options.outputFile}"
+            ],
+            "options": {
+                "lintFilePatterns": [
+                    "packages/react-hooks-elib/**/*.{ts,tsx,js,jsx}"
+                ]
+            }
+        },
+        "test": {
+            "executor": "@nrwl/jest:jest",
+            "outputs": [
+                "coverage/packages/e-react"
+            ],
+            "options": {
+                "jestConfig": "packages/react-hooks-elib/jest.config.js",
+                "passWithNoTests": true
+            }
+        },
+        "publish": {
+            "executor": "@nrwl/workspace:run-commands",
+            "options": {
+                "commands": [
+                    "npm publish"
+                ],
+                "cwd": "dist/packages/react-hooks-elib"
+            }
+        }
+    }
+}
