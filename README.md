@@ -15,11 +15,6 @@ A collection of hooks and utilities for React.
 
   All hooks handle SSR rendering and work well with frameworks like Next/Gatsby
 
-- 🌿 Tree Shakable
-
-  Exported as es modules, import cost for individual function is tiny
-
-
 ## Installation
 
 ```bash
@@ -30,22 +25,17 @@ yarn add react-hooks-elib
 
 ## Hooks
 
-| Hook                  | Description                                                                            |
-| -----------           | -----------                                                                            |
-| `useToggle`           | Hook to toggle boolean values on and off                                               |
-| `useWindowSize`       | Returns the browsers window size  `height` and `width`                                 |
+- **Sensor**
+  - [`useWindowSize`](./docs/useWindowSize.md) &mdash; Tracks browser `Window` dimensions
+  - [`useWindowScroll`](./docs/useWindowScroll.md) &mdash; Tracks `Window` scroll position.
+  - [`useToggle` and `useBoolean`](./docs/useToggle.md) &mdash; Tracks and manages state of a boolean
 
-[Full list of hooks and usage](/hooks)
+## Utils
 
-## Contribution
-
-Contribution guide coming soon... 🤞🏽
-
-## Credits
-
-This library is heavily inspired by [VueUse](https://vueuse.org/), from the vue ecosystem.
+- **isClient** &mdash; Checks wether the current environment is browser of node environment. Use full when working with SSR
+frameworks like `NextJs`
+- **isHTMLElement** &mdash; Checks wether the passed in value is of type `HTML Element`
 
 ## License
 
 [MIT](/LICENSE) © 2022
-
