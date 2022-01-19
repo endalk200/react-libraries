@@ -15,7 +15,8 @@
 		"skipDefaultLibCheck": true,
 		"baseUrl": ".",
 		"paths": {
-			"react-hooks-elib": ["packages/react-hooks-elib/src/index.ts"]
+			"react-hooks-elib": ["packages/react-hooks-elib/src/index.ts"],
+			"react-utils-elib": ["packages/react-utils-elib/src/index.ts"]
 		}
 	},
 	"exclude": ["node_modules", "tmp"]

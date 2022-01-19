@@ -33,9 +33,9 @@ Refer to [this](https://codesandbox.io/s/react-hooks-elib-ern8o) CodeSandbox for
 List of hooks included in the library so far.
 
 -   **Sensor**
-    -   [`useWindowSize`](../../docs/react-hooks-elib/useWindowSize.md) &mdash; Tracks browser `Window` dimensions
-    -   [`useWindowScroll`](../../docs/react-hooks-elib//useWindowScroll.md) &mdash; Tracks `Window` scroll position.
-    -   [`useToggle` and `useBoolean`](../../docs/react-hooks-elib//useToggle.md) &mdash; Tracks and manages state of a boolean
+    -   [`useWindowSize`](./useWindowSize.md) &mdash; Tracks browser `Window` dimensions
+    -   [`useWindowScroll`](.//useWindowScroll.md) &mdash; Tracks `Window` scroll position.
+    -   [`useToggle` and `useBoolean`](.//useToggle.md) &mdash; Tracks and manages state of a boolean
 
 ## Authors
 
