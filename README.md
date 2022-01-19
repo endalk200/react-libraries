@@ -1,41 +1,31 @@
+# [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
 # React Hooks Elib
 
-[![NPM](https://img.shields.io/npm/v/react-hooks-elib)](https://www.npmjs.com/package/react-hooks-elib)
-[![License](https://img.shields.io/github/license/endalk200/react-hooks-elib)](/LICENSE)
+This package contains codebase for two npm packages. Refer to documentation of each packages for more.
 
-A collection of hooks and utilities for React.
+-   [![NPM](https://img.shields.io/npm/v/react-hooks-elib)](https://www.npmjs.com/package/react-hooks-elib) [**react-hooks-elib**](/packages/react-hooks-elib#readme) &map; A collection of react custom hooks
 
-## Features
+-   [![NPM](https://img.shields.io/npm/v/react-utils-elib)](https://www.npmjs.com/package/react-utils-elib) [**react-utils-elib**](/packages/react-utils-elib#readme) &map; A collection of react utility functions and types
 
-- 🔮 Typescript
+## Tech Stack
 
-  Written in typescript so you get the advantage of strong type safety
+-   **React**
 
-- 🧠 Server Side Ready
+## Feedback
 
-  All hooks handle SSR rendering and work well with frameworks like Next/Gatsby
+If you have any feedback, please reach out to me at eb808826@gmail.com
 
-## Installation
+## Authors
 
-```bash
-npm i react-hooks-elib
-# or
-yarn add react-hooks-elib
-```
+-   [@endalk200](https://www.github.com/endalk200)
 
-## Hooks
+## 🔗 Links
 
-- **Sensor**
-  - [`useWindowSize`](./docs/useWindowSize.md) &mdash; Tracks browser `Window` dimensions
-  - [`useWindowScroll`](./docs/useWindowScroll.md) &mdash; Tracks `Window` scroll position.
-  - [`useToggle` and `useBoolean`](./docs/useToggle.md) &mdash; Tracks and manages state of a boolean
-
-## Utils
-
-- **isClient** &mdash; Checks wether the current environment is browser of node environment. Use full when working with SSR
-frameworks like `NextJs`
-- **isHTMLElement** &mdash; Checks wether the passed in value is of type `HTML Element`
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://endalk200.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/endalk200/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/endalk200)
 
 ## License
 
-[MIT](/LICENSE) © 2022
+[MIT](https://choosealicense.com/licenses/mit/)
