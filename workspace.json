@@ -1,6 +1,6 @@
 {
-    "version": 2,
-    "projects": {
-        "react-hooks-elib": "packages/react-hooks-elib"
-    }
+	"version": 2,
+	"projects": {
+		"react-hooks-elib": "packages/react-hooks-elib"
+	}
 }
