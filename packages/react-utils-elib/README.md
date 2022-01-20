@@ -1,4 +1,4 @@
-[![NPM](https://img.shields.io/npm/v/react-libraries)](https://www.npmjs.com/package/react-hooks-elib)
+[![NPM](https://img.shields.io/npm/v/react-utils-elib)](https://www.npmjs.com/package/react-utils-elib)
 [![NPM](https://img.shields.io/npm/dm/react-utils-elib)](https://www.npmjs.com/package/react-hooks-elib)
 [![License](https://img.shields.io/github/license/endalk200/react-libraries)](/LICENSE)
 
@@ -9,9 +9,9 @@ development and testing. Refer [bellow](#Utils) for full list of utilities the l
 
 ## Features
 
--   🔮 **Typescript**
+- 🔮 **Typescript**
 
-    Written in typescript so you get the advantage of strong type safety
+  Written in typescript so you get the advantage of strong type safety
 
 ## Installation
 
@@ -31,9 +31,17 @@ Refer to [this](https://codesandbox.io/s/react-utils-elib-xc6bn) CodeSandbox for
 
 List of utilities included in the library so far.
 
+- **Numbers** &mdash; Different utility functions for working with numbers
+- **Array** &mdash; Different utility functions for manipulating arrays
+- **Objects** &mdash; Different utility functions for manipulating objects
+- **Function** &mdash; Different utility functions for working with functions and callbacks
+- **Dom** &mdash; Different utility functions for working with browsers DOM
+- **assertions** &mdash; Different utility functions for assertion use cases especially tests
+- **User-Agent** &mdash; Utility function to correctly parse the user agent which browser or os.
+
 ## Authors
 
--   [@endalk200](https://www.github.com/endalk200)
+- [@endalk200](https://www.github.com/endalk200)
 
 ## 🔗 Links
 
