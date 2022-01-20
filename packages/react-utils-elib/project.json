@@ -1,0 +1,64 @@
+{
+    "root": "packages/react-utils-elib",
+    "sourceRoot": "packages/react-utils-elib/src",
+    "projectType": "library",
+    "tags": [],
+    "targets": {
+        "build": {
+            "executor": "@nrwl/web:rollup",
+            "outputs": [
+                "{options.outputPath}"
+            ],
+            "options": {
+                "outputPath": "dist/packages/react-utils-elib",
+                "tsConfig": "packages/react-utils-elib/tsconfig.lib.json",
+                "project": "packages/react-utils-elib/package.json",
+                "entryFile": "packages/react-utils-elib/src/index.ts",
+                "external": [
+                    "react/jsx-runtime"
+                ],
+                "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+                "compiler": "babel",
+                "assets": [
+                    {
+                        "glob": "packages/react-utils-elib/README.md",
+                        "input": ".",
+                        "output": "."
+                    }
+                ]
+            }
+        },
+        "publish": {
+            "executor": "@nrwl/workspace:run-commands",
+            "options": {
+                "commands": [
+                    {
+                        "command": "npm publish"
+                    }
+                ],
+                "cwd": "dist/packages/react-utils-elib"
+            }
+        },
+        "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "outputs": [
+                "{options.outputFile}"
+            ],
+            "options": {
+                "lintFilePatterns": [
+                    "packages/react-utils-elib/**/*.{ts,tsx,js,jsx}"
+                ]
+            }
+        },
+        "test": {
+            "executor": "@nrwl/jest:jest",
+            "outputs": [
+                "coverage/packages/react-utils-elib"
+            ],
+            "options": {
+                "jestConfig": "packages/react-utils-elib/jest.config.js",
+                "passWithNoTests": true
+            }
+        }
+    }
+}
