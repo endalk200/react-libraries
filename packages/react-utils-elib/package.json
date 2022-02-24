@@ -1,26 +1,26 @@
 {
-	"name": "react-utils-elib",
-	"version": "0.0.2",
-	"license": "MIT",
-	"scripts": {},
-	"private": false,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/endalk200/react-libraries.git",
-		"directory": "packages/react-utils-elib"
-	},
-	"keywords": [
-		"utils",
-		"react",
-		"elib",
-		"react-utils",
-		"react-utils-elib"
-	],
-	"author": "endalk200 <eb808826@gmail.com>",
-	"description": "A collection of react utility functions for react application development.",
-	"bugs": {
-		"url": "https://github.com/endalk200/react-libraries-elib/issues"
-	},
-	"homepage": "https://github.com/endalk200/react-libraries/tree/main/packages/react-utils-elib#readme",
-	"dependencies": {}
+    "name": "react-utils-elib",
+    "version": "0.0.3",
+    "license": "MIT",
+    "scripts": {},
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/endalk200/react-libraries.git",
+        "directory": "packages/react-utils-elib"
+    },
+    "keywords": [
+        "utils",
+        "react",
+        "elib",
+        "react-utils",
+        "react-utils-elib"
+    ],
+    "author": "endalk200 <eb808826@gmail.com>",
+    "description": "A collection of react utility functions for react application development.",
+    "bugs": {
+        "url": "https://github.com/endalk200/react-libraries-elib/issues"
+    },
+    "homepage": "https://github.com/endalk200/react-libraries/tree/main/packages/react-utils-elib#readme",
+    "dependencies": {}
 }

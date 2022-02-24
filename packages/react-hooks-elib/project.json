@@ -53,7 +53,9 @@
             "executor": "@nrwl/workspace:run-commands",
             "options": {
                 "commands": [
-                    "npm publish"
+                    {
+                        "command": "npm publish"
+                    }
                 ],
                 "cwd": "dist/packages/react-hooks-elib"
             }
