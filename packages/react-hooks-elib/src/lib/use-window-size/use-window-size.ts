@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
+import { isBrowser } from "react-utils-elib";
 
 export interface Size {
-    width: number | undefined;
-    height: number | undefined;
+	width: number;
+	height: number;
 }
 
 /**
@@ -10,32 +11,30 @@ export interface Size {
  *
  * @returns {object} height and width of the browser window `{height, width}`
  */
-export const useWindowSize = (): Size => {
-    const [windowSize, setWindowSize] = useState<Size>({
-        width: undefined,
-        height: undefined
-    });
+export const useWindowSize = (initialWidth = Infinity, initialHeight = Infinity): Size => {
+	const [state, setState] = useState<Size>({
+		width: isBrowser ? window.innerWidth : initialWidth,
+		height: isBrowser ? window.innerHeight : initialHeight,
+	});
 
-    useEffect(() => {
-        // Handler to call on window resize
-        const handleResize = () => {
-            // Set window width/height to state
-            setWindowSize({
-                width: window.innerWidth,
-                height: window.innerHeight
-            });
-        };
+	useEffect((): (() => void) | void => {
+		if (isBrowser) {
+			const handleResize = () => {
+				setState({
+					width: window.innerWidth,
+					height: window.innerHeight,
+				});
+			};
 
-        window.addEventListener("resize", handleResize);
+			window.addEventListener("resize", handleResize);
 
-        // Call handler right away so state gets updated with initial window size
-        handleResize();
+			return () => {
+				window.removeEventListener("resize", handleResize);
+			};
+		}
+	}, []);
 
-        // Remove event listener on cleanup
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
-
-    return { ...windowSize };
+	return state;
 };
 
 export default useWindowSize;

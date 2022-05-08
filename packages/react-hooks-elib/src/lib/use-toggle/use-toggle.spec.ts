@@ -2,91 +2,89 @@ import { act, renderHook } from "@testing-library/react-hooks";
 import { useToggle } from "./use-toggle";
 
 describe("useBoolean", () => {
-    it("should be false by default and should toggle boolean values", () => {
-        const { result } = renderHook(() => useToggle());
+	it("should be false by default and should toggle boolean values", () => {
+		const { result } = renderHook(() => useToggle());
 
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        const [, { on, off, toggle }] = result.current;
+		// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+		// @ts-ignore
+		const [, { on, off, toggle }] = result.current;
 
+		expect(result.current[0]).toBeFalsy();
 
-        expect(result.current[0]).toBeFalsy();
+		act(() => {
+			on();
+		});
 
-        act(() => {
-            on();
-        });
+		expect(result.current[0]).toBeTruthy();
 
-        expect(result.current[0]).toBeTruthy();
+		act(() => {
+			off();
+		});
 
-        act(() => {
-            off();
-        });
+		expect(result.current[0]).toBeFalsy();
 
-        expect(result.current[0]).toBeFalsy();
+		act(() => {
+			toggle();
+		});
 
-        act(() => {
-            toggle();
-        });
+		expect(result.current[0]).toBeTruthy();
+	});
 
-        expect(result.current[0]).toBeTruthy();
-    });
+	it("should work with argument provided.", () => {
+		const { result } = renderHook(() => useToggle(false));
 
-    it("should work with argument provided.", () => {
-        const { result } = renderHook(() => useToggle(false));
+		// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+		// @ts-ignore
+		const [, { on, off, toggle }] = result.current;
 
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        const [, { on, off, toggle }] = result.current;
+		expect(result.current[0]).toBeFalsy();
 
-        expect(result.current[0]).toBeFalsy();
+		act(() => {
+			on();
+		});
 
-        act(() => {
-            on();
-        });
+		expect(result.current[0]).toBeTruthy();
 
-        expect(result.current[0]).toBeTruthy();
+		act(() => {
+			off();
+		});
 
-        act(() => {
-            off();
-        });
+		expect(result.current[0]).toBeFalsy();
 
-        expect(result.current[0]).toBeFalsy();
+		act(() => {
+			toggle();
+		});
 
-        act(() => {
-            toggle();
-        });
+		expect(result.current[0]).toBeTruthy();
+	});
 
-        expect(result.current[0]).toBeTruthy();
-    });
+	it("should work with argument provided from function return.", () => {
+		const getArgument = () => false;
 
-    it("should work with argument provided from function return.", () => {
+		const { result } = renderHook(() => useToggle(getArgument()));
 
-        const getArgument = () => false;
+		// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+		// @ts-ignore
+		const [, { on, off, toggle }] = result.current;
 
-        const { result } = renderHook(() => useToggle(getArgument()));
+		expect(result.current[0]).toBeFalsy();
 
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        const [, { on, off, toggle }] = result.current;
+		act(() => {
+			on();
+		});
 
-        expect(result.current[0]).toBeFalsy();
+		expect(result.current[0]).toBeTruthy();
 
-        act(() => {
-            on();
-        });
+		act(() => {
+			off();
+		});
 
-        expect(result.current[0]).toBeTruthy();
+		expect(result.current[0]).toBeFalsy();
 
-        act(() => {
-            off();
-        });
+		act(() => {
+			toggle();
+		});
 
-        expect(result.current[0]).toBeFalsy();
-
-        act(() => {
-            toggle();
-        });
-
-        expect(result.current[0]).toBeTruthy();
-    });
+		expect(result.current[0]).toBeTruthy();
+	});
 });
