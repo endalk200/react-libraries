@@ -8,13 +8,13 @@ A collection of hooks and utilities for React.
 
 ## Features 🚀
 
-- 🔮 Typescript
+-   🔮 Typescript
 
-  Written in typescript so you get the advantage of strong type safety
+    Written in typescript so you get the advantage of strong type safety
 
-- 🧠 Server Side Ready
+-   🧠 Server Side Ready
 
-  All hooks handle SSR rendering and work well with frameworks like Next/Gatsby
+    All hooks handle SSR rendering and work well with frameworks like Next/Gatsby
 
 ## Installation
 
@@ -32,21 +32,21 @@ Refer to [this](https://codesandbox.io/s/react-hooks-elib-ern8o) CodeSandbox for
 
 List of hooks included in the library so far.
 
-- **Sensor**
+-   **Sensor**
 
-  - [`useWindowSize`](./useWindowSize.md) &mdash; Tracks browser `Window` dimensions
-  - [`useWindowScroll`](.//useWindowScroll.md) &mdash; Tracks `Window` scroll position.
+    -   [`useWindowSize`](./useWindowSize.md) &mdash; Tracks browser `Window` dimensions
+    -   [`useWindowScroll`](.//useWindowScroll.md) &mdash; Tracks `Window` scroll position.
 
-- **Side Effects**
+-   **Side Effects**
 
-  - `useClipboard` &mdash; copies text to clipboard with timeout and callback options.
+    -   `useClipboard` &mdash; copies text to clipboard with timeout and callback options.
 
-- **State**
-  - [`useToggle` and `useBoolean`](.//useToggle.md) &mdash; Tracks and manages state of a boolean
+-   **State**
+    -   [`useToggle` and `useBoolean`](.//useToggle.md) &mdash; Tracks and manages state of a boolean
 
 ## Authors
 
-- [@endalk200](https://www.github.com/endalk200)
+-   [@endalk200](https://www.github.com/endalk200)
 
 ## 🔗 Links
 

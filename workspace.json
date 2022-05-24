@@ -1,8 +1,6 @@
 {
 	"version": 2,
 	"projects": {
-		"example": "packages/example",
-		"example-e2e": "packages/example-e2e",
 		"react-hooks-elib": "packages/react-hooks-elib",
 		"react-utils-elib": "packages/react-utils-elib"
 	}

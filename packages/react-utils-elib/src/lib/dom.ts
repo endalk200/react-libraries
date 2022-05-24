@@ -2,9 +2,7 @@
 import { Booleanish, EventKeys } from "./types";
 
 export function isElement(el: any): el is Element {
-	return (
-		el != null && typeof el == "object" && "nodeType" in el && el.nodeType === Node.ELEMENT_NODE
-	);
+	return el != null && typeof el == "object" && "nodeType" in el && el.nodeType === Node.ELEMENT_NODE;
 }
 
 export function isHTMLElement(el: any): el is HTMLElement {
@@ -37,8 +35,7 @@ export function canUseDOM(): boolean {
  */
 export const isBrowser = canUseDOM();
 
-export const dataAttr = (condition: boolean | undefined) =>
-	(condition ? "" : undefined) as Booleanish;
+export const dataAttr = (condition: boolean | undefined) => (condition ? "" : undefined) as Booleanish;
 
 export const ariaAttr = (condition: boolean | undefined) => (condition ? true : undefined);
 
@@ -80,9 +77,7 @@ export function normalizeEventKey(event: Pick<KeyboardEvent, "key" | "keyCode">)
 	return eventKey as EventKeys;
 }
 
-export function getRelatedTarget(
-	event: Pick<FocusEvent, "relatedTarget" | "target" | "currentTarget">
-) {
+export function getRelatedTarget(event: Pick<FocusEvent, "relatedTarget" | "target" | "currentTarget">) {
 	const target = (event.target ?? event.currentTarget) as HTMLElement;
 	const activeElement = getActiveElement(target);
 	return (event.relatedTarget ?? activeElement) as HTMLElement;

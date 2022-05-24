@@ -4,13 +4,13 @@
 
 This package contains codebase for two npm packages. Refer to documentation of each packages for more.
 
-- [![NPM](https://img.shields.io/npm/v/react-hooks-elib)](https://www.npmjs.com/package/react-hooks-elib) [**react-hooks-elib**](/packages/react-hooks-elib#readme) &map; A collection of react custom hooks
+-   [![NPM](https://img.shields.io/npm/v/react-hooks-elib)](https://www.npmjs.com/package/react-hooks-elib) [**react-hooks-elib**](/packages/react-hooks-elib#readme) &map; A collection of react custom hooks
 
-- [![NPM](https://img.shields.io/npm/v/react-utils-elib)](https://www.npmjs.com/package/react-utils-elib) [**react-utils-elib**](/packages/react-utils-elib#readme) &map; A collection of react utility functions and types
+-   [![NPM](https://img.shields.io/npm/v/react-utils-elib)](https://www.npmjs.com/package/react-utils-elib) [**react-utils-elib**](/packages/react-utils-elib#readme) &map; A collection of react utility functions and types
 
 ## Tech Stack
 
-- **React**
+-   **React**
 
 ## Feedback
 
@@ -18,7 +18,7 @@ If you have any feedback, please reach out to me at eb808826@gmail.com
 
 ## Authors
 
-- [@endalk200](https://www.github.com/endalk200)
+-   [@endalk200](https://www.github.com/endalk200)
 
 ## 🔗 Links
 
