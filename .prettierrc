@@ -1,12 +1,12 @@
 {
 	"singleQuote": false,
 	"tabWidth": 4,
-	"printWidth": 100,
+	"printWidth": 110,
 	"overrides": [
 		{
 			"files": "*.md",
 			"options": {
-				"tabWidth": 2
+				"tabWidth": 4
 			}
 		}
 	]

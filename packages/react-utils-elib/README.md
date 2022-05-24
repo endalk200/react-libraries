@@ -4,14 +4,14 @@
 
 # React Utils Elib
 
-A collection of utility functions for react. Includes helper functions for react application
+A collection of utility functions. These utility function focus primarily on frontend code but some have backend related utility functions as well. Includes helper functions for react application
 development and testing. Refer [bellow](#Utils) for full list of utilities the library provides
 
 ## Features
 
-- 🔮 **Typescript**
+-   🔮 **Typescript**
 
-  Written in typescript so you get the advantage of strong type safety
+    Written in typescript so you get the advantage of strong type safety
 
 ## Installation
 
@@ -31,17 +31,18 @@ Refer to [this](https://codesandbox.io/s/react-utils-elib-xc6bn) CodeSandbox for
 
 List of utilities included in the library so far.
 
-- **Numbers** &mdash; Different utility functions for working with numbers
-- **Array** &mdash; Different utility functions for manipulating arrays
-- **Objects** &mdash; Different utility functions for manipulating objects
-- **Function** &mdash; Different utility functions for working with functions and callbacks
-- **Dom** &mdash; Different utility functions for working with browsers DOM
-- **assertions** &mdash; Different utility functions for assertion use cases especially tests
-- **User-Agent** &mdash; Utility function to correctly parse the user agent which browser or os.
+-   **Array** &mdash; Different utility functions for working with arrays like `getNextItemFromSearch`, `getNextIndex`, `removeIndex` and 8 others
+-   **Numbers** &mdash; Different utility functions for working with numbers
+-   **Objects** &mdash; Different utility functions for manipulating objects
+-   **Function** &mdash; Different utility functions for working with functions and callbacks
+-   **Dom** &mdash; Different utility functions for working with browsers DOM like `isHTMLELement`, `getEventWindow`, `isBrowser`, `getActiveElement` and many more.
+-   **assertions** &mdash; Different utility functions for assertion use cases especially tests like `isNumeric`, `isDefined`, `isFunction` `isEmpty`, `isRefObject` and many more
+-   **User-Agent** &mdash; Utility function to correctly parse the user agent which browser or os. `userAgentBrowser`, `detectBrowser`, `getUserAgentOS`, `detectOS` `detectDeviceType`, `detectTouch` and many more.
+-   **Validators** &mdash; Different validator functions for validating data like `isValidEmail` and `isValidURL`
 
 ## Authors
 
-- [@endalk200](https://www.github.com/endalk200)
+-   [@endalk200](https://www.github.com/endalk200)
 
 ## 🔗 Links
 
