@@ -29,16 +29,89 @@ Refer to [this](https://codesandbox.io/s/react-utils-elib-xc6bn) CodeSandbox for
 
 ## Utils
 
-List of utilities included in the library so far.
+Exhaustive list of utility functions included in this library
 
--   **Array** &mdash; Different utility functions for working with arrays like `getNextItemFromSearch`, `getNextIndex`, `removeIndex` and 8 others
--   **Numbers** &mdash; Different utility functions for working with numbers
--   **Objects** &mdash; Different utility functions for manipulating objects
--   **Function** &mdash; Different utility functions for working with functions and callbacks
--   **Dom** &mdash; Different utility functions for working with browsers DOM like `isHTMLELement`, `getEventWindow`, `isBrowser`, `getActiveElement` and many more.
--   **assertions** &mdash; Different utility functions for assertion use cases especially tests like `isNumeric`, `isDefined`, `isFunction` `isEmpty`, `isRefObject` and many more
--   **User-Agent** &mdash; Utility function to correctly parse the user agent which browser or os. `userAgentBrowser`, `detectBrowser`, `getUserAgentOS`, `detectOS` `detectDeviceType`, `detectTouch` and many more.
--   **Validators** &mdash; Different validator functions for validating data like `isValidEmail` and `isValidURL`
+-   `getUserAgentBrowser` &mdash;
+-   `useAgentBrowser` &mdash;
+-   `detectBrowser` &mdash;
+-   `getUserAgentOS` &mdash;
+-   `detectOS` &mdash;
+-   `detectDeviceType` &mdash;
+-   `detectTouch` &mdash;
+-   `isValidURL` &mdash;
+-   `isValidEmail` &mdash;
+-   `getNextItemFromSearch` &mdash;
+-   `getNextIndex` &mdash;
+-   `getPrevIndex` &mdash;
+-   `addItem` &mdash;
+-   `removeIndex` &mdash;
+-   `removeItem` &mdash;
+-   `getPrevItem` &mdash;
+-   `getLastItem` &mdash;
+-   `getNextItem` &mdash;
+-   `serializeJSON` &mdash;
+-   `deserializeJSON` &mdash;
+-   `isNumber` &mdash;
+-   `isNotNumber` &mdash;
+-   `isNumeric` &mdash;
+-   `isArray` &mdash;
+-   `isEmptyArray` &mdash;
+-   `isFunction` &mdash;
+-   `isDefined` &mdash;
+-   `isUndefined` &mdash;
+-   `isObject` &mdash;
+-   `isEmptyObject` &mdash;
+-   `isNotEmptyObject` &mdash;
+-   `isNull` &mdash;
+-   `isString` &mdash;
+-   `isCSSVar` &mdash;
+-   `isEmpty` &mdash;
+-   `isRefObject` &mdash;
+-   `isInputEvent` &mdash;
+-   `isElement` &mdash;
+-   `isHTMLElement` &mdash;
+-   `getOwnerWindow` &mdash;
+-   `getOwnerDocument` &mdash;
+-   `getEventWindow` &mdash;
+-   `canUseDOM` &mdash;
+-   `isBrowser` &mdash;
+-   `dataAttr` &mdash;
+-   `ariaAttr` &mdash;
+-   `cx` &mdash;
+-   `contains` &mdash;
+-   `addDomEvent` &mdash;
+-   `normalizeEventKey` &mdash;
+-   `getRelatedTarget` &mdash;
+-   `isRightClick` &mdash;
+-   `runIfFn` &mdash;
+-   `callAllHandlers` &mdash;
+-   `callAll` &mdash;
+-   `compose` &mdash;
+-   `once` &mdash;
+-   `noop` &mdash;
+-   `warn` &mdash;
+-   `error` &mdash;
+-   `pipe` &mdash;
+-   `isPoint` &mdash;
+-   `distance` &mdash;
+-   `toNumber` &mdash;
+-   `toPrecision` &mdash;
+-   `countDecimalPlaces` &mdash;
+-   `valueToPercent` &mdash;
+-   `percentToValue` &mdash;
+-   `roundValueToStep` &mdash;
+-   `clampValue` &mdash;
+-   `omit` &mdash;
+-   `pick` &mdash;
+-   `split` &mdash;
+-   `get` &mdash;
+-   `memoize` &mdash;
+-   `memoizedGet` &mdash;
+-   `walkObject` &mdash;
+-   `objectFilter` &mdash;
+-   `filterUndefined` &mdash;
+-   `fromEntries` &mdash;
+-   `getCSSVar` &mdash;
 
 ## Authors
 

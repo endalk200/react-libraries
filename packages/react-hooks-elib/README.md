@@ -32,23 +32,22 @@ Refer to [this](https://codesandbox.io/s/react-hooks-elib-ern8o) CodeSandbox for
 
 List of hooks included in the library so far.
 
--   **Sensor**
-    -   [`useWindowSize`](../../docs/react-hooks-elib/useWindowSize.md) &mdash; Tracks browser `Window` dimensions
-    -   [`useWindowScroll`](../../docs/react-hooks-elib//useWindowScroll.md) &mdash; Tracks `Window` scroll position.
-    -   [`useToggle` and `useBoolean`](../../docs/react-hooks-elib//useToggle.md) &mdash; Tracks and manages state of a boolean
-    -   [`useClipboard`] &mdash; Hook to work with the clipboard
-    -   [`useLocalStorage`] &mdash; Hook to work with the local storage API. Supports syncing local storage values across tabs and rerender on change
-    -   [`useWindowSize`] &mdash;
-    -   [`useWindowScroll`] &mdash;
-    -   [`useWindowEvent`] &mdash;
-    -   [`useTimeout`] &mdash;
-    -   [`useSafeLayoutEffect`] &mdash;
-    -   [`usePrevious`] &mdash;
-    -   [`useConst`] &mdash;
-    -   [`useMergeRefs`] &mdash;
-    -   [`useInterval`] &mdash;
-    -   [`useLatestRef`] &mdash;
-    -   [`useCallbackRef`] &mdash;
+-   [`useWindowSize`](../../docs/react-hooks-elib/useWindowSize.md) &mdash; Tracks browser `Window` dimensions
+-   [`useWindowScroll`](../../docs/react-hooks-elib//useWindowScroll.md) &mdash; Tracks `Window` scroll position.
+-   [`useToggle` and `useBoolean`](../../docs/react-hooks-elib//useToggle.md) &mdash; Tracks and manages state of a boolean
+-   `useClipboard` &mdash; Hook to work with the clipboard
+-   `useLocalStorage` &mdash; Hook to work with the local storage API. Supports syncing local storage values across tabs and rerender on change
+-   `useWindowSize` &mdash;
+-   `useWindowScroll` &mdash;
+-   `useWindowEvent` &mdash;
+-   `useTimeout` &mdash;
+-   `useSafeLayoutEffect` &mdash;
+-   `usePrevious` &mdash;
+-   `useConst` &mdash;
+-   `useMergeRefs` &mdash;
+-   `useInterval` &mdash;
+-   `useLatestRef` &mdash;
+-   `useCallbackRef` &mdash;
 
 ## Authors
 
