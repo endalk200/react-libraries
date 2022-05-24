@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Dict } from "./types";
 
-// Number assertions
 export function isNumber(value: any): value is number {
 	return typeof value === "number";
 }
