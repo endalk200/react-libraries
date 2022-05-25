@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![react utils test CI](https://github.com/endalk200/react-libraries/actions/workflows/test-utils.yml/badge.svg)](https://github.com/endalk200/react-libraries/actions/workflows/test-utils.yml) [![react hooks test CI](https://github.com/endalk200/react-libraries/actions/workflows/test-hooks.yml/badge.svg)](https://github.com/endalk200/react-libraries/actions/workflows/test-hooks.yml)
 
 # React Utils Elib and React Hooks Elib
 
