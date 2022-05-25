@@ -1,31 +1,39 @@
-# [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-# React Hooks Elib
+# React Utils Elib and React Hooks Elib
 
-This package contains codebase for two npm packages. Refer to documentation of each packages for more.
+This is a a monorepo for for `react-hooks-elib` and `react-utils-elib` npm packages. To see full documentation of these packages go to [**react-hooks-elib**](/packages/react-hooks-elib#readme) and [**react-utils-elib**](/packages/react-utils-elib#readme)
 
--   [![NPM](https://img.shields.io/npm/v/react-hooks-elib)](https://www.npmjs.com/package/react-hooks-elib) [**react-hooks-elib**](/packages/react-hooks-elib#readme) &map; A collection of react custom hooks
+## React Hooks Elib [![NPM](https://img.shields.io/npm/v/react-hooks-elib)](https://www.npmjs.com/package/react-hooks-elib)
 
--   [![NPM](https://img.shields.io/npm/v/react-utils-elib)](https://www.npmjs.com/package/react-utils-elib) [**react-utils-elib**](/packages/react-utils-elib#readme) &map; A collection of react utility functions and types
+`react-hooks-elib` is a collection of custom react hooks that makes working with react enjoyable. The package contains many react custom hooks that are usefull. To checkout the full list of utility functions that are available checkout the documentation [**here**](/packages/react-hooks-elib#readme).
 
-## Tech Stack
+### Installation
 
--   **React**
+```bash
+npm install react-hooks-elib
 
-## Feedback
+# Or
 
-If you have any feedback, please reach out to me at eb808826@gmail.com
+yarn add react-hooks-elib
+```
 
-## Authors
+## React Utils Elib [![NPM](https://img.shields.io/npm/v/react-utils-elib)](https://www.npmjs.com/package/react-utils-elib)
+
+`react-utils-elib` is a collection of utility functions that have application in react application development including test. The packages contains many utility functions that are useful. To checkout the full list of utility functions that are available checkout the documentation [**here**](/packages/react-utils-elib#readme).
+
+```bash
+npm install react-utils-elib
+
+# Or
+
+yarn add react-utils-elib
+```
+
+#### Authors
 
 -   [@endalk200](https://www.github.com/endalk200)
 
-## 🔗 Links
-
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://endalk200.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/endalk200/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/endalk200)
-
-## License
+#### License
 
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -16,7 +16,7 @@ export type UseToggle = (
  *
  * @param initialState {boolean} the initial boolean state value default to false
  */
-export const useToggle = (initialState: InitialState = false): UseToggle => {
+export const useToggle = (initialState: InitialState = false) => {
 	const [value, setValue] = useState(initialState);
 
 	const on = useCallback(() => {
