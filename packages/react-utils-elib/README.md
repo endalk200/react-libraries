@@ -1,5 +1,5 @@
 [![NPM](https://img.shields.io/npm/v/react-utils-elib)](https://www.npmjs.com/package/react-utils-elib)
-[![NPM](https://img.shields.io/npm/dm/react-utils-elib)](https://www.npmjs.com/package/react-hooks-elib)
+[![NPM](https://img.shields.io/npm/dt/react-utils-elib)](https://www.npmjs.com/package/react-hooks-elib)
 [![License](https://img.shields.io/github/license/endalk200/react-libraries)](/LICENSE)
 
 # React Utils Elib
